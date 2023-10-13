@@ -13,6 +13,13 @@
       "text": "2.html",
       "text_made_by": "Luca Bignotti",
       "questions": "2_questions.json"
+    },
+    {
+      "date": "10/10/2023",
+      "title": "Lezione 3",
+      "text": "3.html",
+      "text_made_by": "Luca Bignotti",
+      "questions": "3_questions.json"
     }
   ]
 }  
