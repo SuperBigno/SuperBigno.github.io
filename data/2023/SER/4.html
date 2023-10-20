@@ -1,0 +1,82 @@
+
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .highlight {
+            background-color: #ff0;
+            font-weight: bold;
+        }
+
+        .list {
+            list-style: disc inside;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>SER lezione 4</h1>
+    <div class="container">
+        <h1>Il Modello OSI (Open Systems Interconnection)</h1>
+        <p>Il Modello OSI è un modello concettuale utilizzato per comprendere le reti di computer. È suddiviso in sette strati, ognuno dei quali ha un ruolo specifico. Questi livelli sono organizzati in due categorie principali:</p>
+        <div class="list">
+            <ul>
+                <li><span class="highlight">Livelli inferiori:</span> Questi livelli gestiscono la comunicazione e il trasporto dei dati tra sistemi. Sono presenti nei nodi di rete, che sono dispositivi intermedi come router o switch.</li>
+                <li><span class="highlight">Livelli superiori:</span> Questi livelli si occupano delle applicazioni e dei servizi che gli utenti finali vedono e utilizzano.</li>
+            </ul>
+        </div>
+        <p>Per avere un'idea migliore di come funzionano questi livelli, si può fare un parallelo con una fabbrica, dove ciascun reparto ha un compito specifico nella produzione di un prodotto. Allo stesso modo, ogni livello del Modello OSI ha una funzione specifica nella gestione e nella comunicazione dei dati all'interno di una rete.</p>
+        <h2>Nel Contesto della Comunicazione</h2>
+        <p>Nel contesto della comunicazione, è possibile distinguere due tipi principali di dispositivi:</p>
+        <div class="list">
+            <ul>
+                <li><span class="highlight">Sistema terminale (end system):</span> Questi dispositivi costituiscono l'origine o la destinazione finale dei dati, come computer o smartphone.</li>
+                <li><span class="highlight">Sistema intermedio (relay system):</span> Questi dispositivi svolgono il ruolo di facilitatori nella comunicazione tra i sistemi terminali. Un esempio comune di sistema intermedio è un router, il quale instrada i dati attraverso una rete, consentendo la connessione tra sistemi terminali.</li>
+            </ul>
+        </div>
+        <p>Per rendere questo concetto più concreto, immaginate di voler inviare una lettera a un amico che vive in un'altra città. Nel processo, voi (come sistema terminale di origine) scrivete la lettera e la consegnate all'ufficio postale (che funge da sistema intermedio). L'ufficio postale si incarica quindi di trasportare la vostra lettera attraverso vari centri di smistamento (altri sistemi intermedi) fino a quando essa giunge all'ufficio postale dell'amico, che provvede infine a consegnarla direttamente all'amico (sistema terminale di destinazione). In questo modo, il concetto di sistemi terminali e intermedi facilita la comprensione del flusso dei dati e della comunicazione.</p>
+        <h2>Il Modello OSI Suddivide la Comunicazione in Sette Livelli</h2>
+        <p>Il Modello OSI suddivide la comunicazione in sette livelli, ciascuno con un ruolo specifico nel processo di comunicazione. Esploreremo ciascuno di questi livelli per comprendere meglio come contribuiscono alla trasmissione dei dati tra dispositivi. Ecco una panoramica dei livelli:</p>
+        <div class="list">
+            <ol>
+                <li><span class="highlight">Strato fisico:</span> Trasmissione dei bit su un canale di comunicazione.</li>
+                <li><span class="highlight">Strato di collegamento:</span> Costruisce e gestisce link tra nodi adiacenti, assicurandosi che i dati siano trasmessi in modo affidabile.</li>
+                <li><span class="highlight">Strato di rete:</span> Si occupa dell'inoltro dei pacchetti tra i nodi sulla rete, garantendo che raggiungano la loro destinazione.</li>
+                <li><span class="highlight">Strato di trasporto:</span> Fornisce comunicazione tra le applicazioni sui nodi finali, gestendo il flusso di dati e la connessione tra mittente e destinatario.</li>
+                <li><span class="highlight">Strato di sessione:</span> Gestisce le sessioni di comunicazione, consentendo l'avvio, la gestione e la terminazione delle sessioni tra dispositivi.</li>
+                <li><span class="highlight">Strato di presentazione:</span> Si occupa della rappresentazione dei dati, traducendo, cifrando o comprimendo le informazioni in un formato comprensibile.</li>
+                <li><span class="highlight">Strato di applicazione:</span> Fornisce servizi di rete agli utenti finali, consentendo l'accesso a funzionalità come e-mail, navigazione web e condivisione di file.</li>
+                </ol>
+            </div>
+            <p>È importante notare che ogni strato comunica solo con gli strati immediatamente superiori e inferiori, garantendo così una comunicazione efficiente e ben organizzata tra i componenti di una rete.</p>
+    
+            <h2>Importanza del Livello Fisico</h2>
+            <p>Il Livello Fisico è di importanza vitale nel contesto delle reti e delle comunicazioni. È il fondamento su cui si basano tutti gli altri livelli e senza di esso, la comunicazione tra dispositivi sarebbe impossibile. Questo livello si occupa della trasmissione e della ricezione dei bit grezzi su un canale di comunicazione ed è paragonabile alla fondazione di una casa. Se la fondazione è debole o instabile, l'intera struttura rischia il collasso. Allo stesso modo, se il livello fisico non funziona correttamente, tutti gli altri livelli di comunicazione falliranno.</p>
+            <p>In sintesi, il livello fisico è la "strada" principale su cui viaggiano tutti i dati digitali e senza di esso, la comunicazione semplicemente non potrebbe avvenire. È un elemento fondamentale per garantire che i dati vengano trasmessi in modo affidabile tra dispositivi e che le reti funzionino in modo efficiente.</p>
+        </div>
+    </body>
+    </html>
+    
